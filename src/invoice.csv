@@ -1,124 +1,45 @@
 Data de Compra;Nome no Cartão;Final do Cartão;Categoria;Descrição;Parcela;Valor (em US$);Cotação (em R$);Valor (em R$)
-10/08/2023;RICARDO SHINODA;6993;-;"Inclusao de Pagamento    ";Única;0;0;-10400.25
-30/08/2023;RICARDO SHINODA;6993;-;Anuidade Diferenciada;12/12;0;0;85.00
-30/08/2023;RICARDO SHINODA;6993;-;Estorno Tarifa;Única;0;0;-85.00
-21/12/2022;RICARDO SHINODA;7757;Serviços Profissionais;LEVIS LEVIS;8/10;0;0;52.85
-14/03/2023;RICARDO SHINODA;7757;Vestuário / Roupas;HERING OUTLETESPACOH;6/6;0;0;35.27
-24/04/2023;RICARDO SHINODA;7757;Vestuário / Roupas;LOJA MELISSA;5/5;0;0;20.66
-05/06/2023;RICARDO SHINODA;7757;Departamento / Desconto;MLP NETSHOES;3/3;0;0;61.29
-14/07/2023;RICARDO SHINODA;7757;Vestuário / Roupas;LEVI STRAUSS LOJALEVIS;2/4;0;0;60.32
-03/08/2023;RICARDO SHINODA;7757;Supermercados / Mercearia / Padarias / Lojas de Conveniência;JOLIE CAFE;Única;0;0;54.00
-04/08/2023;RICARDO SHINODA;7757;Restaurante / Lanchonete / Bar;G M DA CUNHA RESTAURAN;Única;0;0;303.67
-07/08/2023;RICARDO SHINODA;7757;Supermercados / Mercearia / Padarias / Lojas de Conveniência;CONFIANCA MAX;Única;0;0;22.95
-16/08/2023;RICARDO SHINODA;7757;Restaurante / Lanchonete / Bar;IFOOD   IFD TOP ACAI;Única;0;0;23.73
-18/08/2023;RICARDO SHINODA;7757;Restaurante / Lanchonete / Bar;MELHORDOG;Única;0;0;15.00
-19/08/2023;RICARDO SHINODA;7757;Serviços pessoais;EC  ALIPAYBRASIL;Única;0;0;25.81
-21/08/2023;RICARDO SHINODA;7757;Transporte;PAG RDCULTURAL;Única;0;0;250.00
-22/08/2023;RICARDO SHINODA;7757;Serviços Profissionais;DM UDEMY;Única;0;0;22.90
-23/08/2023;RICARDO SHINODA;7757;Assistência médica e odontológica;3753DROGASIL;Única;0;0;85.92
-25/08/2023;RICARDO SHINODA;7757;Restaurante / Lanchonete / Bar;MELHORDOG;Única;0;0;15.00
-26/08/2023;RICARDO SHINODA;7757;Serviços pessoais;MUSTACHE BAURU;Única;0;0;33.20
-27/08/2023;RICARDO SHINODA;7757;Serviços pessoais;MUSTACHE BAURU;Única;0;0;89.90
-31/08/2023;RICARDO SHINODA;7757;Supermercados / Mercearia / Padarias / Lojas de Conveniência;CONFIANCA MAX;Única;0;0;17.96
-12/11/2022;ANA MAROUBO;0527;Assistência médica e odontológica;PAG OTICABRAGA;9/10;0;0;46.00
-07/03/2023;ANA MAROUBO;0527;Departamento / Desconto;AMAZON MARKETPLACE;6/9;0;0;51.57
-15/05/2023;ANA MAROUBO;0527;Vestuário / Roupas;DAFITI  4576109696;4/7;0;0;56.42
-25/05/2023;ANA MAROUBO;0527;Especialidade varejo;CENTAURO COM BR;4/6;0;0;68.33
-01/06/2023;ANA MAROUBO;0527;Assistência médica e odontológica;3753DROGASIL;3/3;0;0;45.38
-15/07/2023;ANA MAROUBO;0527;Serviços pessoais;FONTE DI BELLE;2/2;0;0;127.50
-02/08/2023;ANA MAROUBO;0527;Serviços Profissionais;PAG MARIANACUNHABASTO;2/3;0;0;330.00
-10/08/2023;ANA MAROUBO;0527;Departamento / Desconto;HUBFINTECH NETSHOES;1/2;0;0;81.95
-11/08/2023;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD   IFD ROASTED P;Única;0;0;29.47
-12/08/2023;ANA MAROUBO;0527;Serviços pessoais;LOPRETO L ESTETICA;Única;0;0;45.00
-18/08/2023;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD   IFD CHINA IN;Única;0;0;34.66
-18/08/2023;ANA MAROUBO;0527;Empresa serviços;GOOGLE KING;Única;0;0;16.90
-21/08/2023;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;38.98
-22/08/2023;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;BWL ALIMENTOS LTDA EPP;Única;0;0;50.90
-25/08/2023;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD   IFD MANA POKE;Única;0;0;51.89
-27/08/2023;ANA MAROUBO;0527;Assistência médica e odontológica;3753DROGASIL;Única;0;0;26.93
-28/08/2023;ANA MAROUBO;0527;Entretenimento;GOOGLE KING;Única;0;0;1.90
-31/08/2023;ANA MAROUBO;0527;Serviços pessoais;GABRIEL DE ALCANTARA;Única;0;0;72.00
-10/03/2023;HOUSE CARD;9858;Educacional;SESI SERVICO SOCIAL DA;6/10;0;0;42.90
-15/03/2023;HOUSE CARD;9858;Educacional;AMERICAN CORNER ESCOLA;6/11;0;0;239.95
-26/04/2023;HOUSE CARD;9858;Aluguel;MERCADOLIVRE MULTIIMP;5/6;0;0;34.81
-01/06/2023;HOUSE CARD;9858;Assistência médica e odontológica;DROGARIA ONLINE;3/3;0;0;153.10
-06/06/2023;HOUSE CARD;9858;Seguro;PORTO SEGURO SEGUROS;3/6;0;0;238.84
-12/06/2023;HOUSE CARD;9858;T&E;BLUE TREE TH BLUETREEL;3/10;0;0;1236.26
-14/06/2023;HOUSE CARD;9858;Vestuário / Roupas;MARISA 674;3/3;0;0;49.99
-23/06/2023;HOUSE CARD;9858;Seguro;PORTO SEGURO SEGUROS;3/6;0;0;96.60
-01/07/2023;HOUSE CARD;9858;Serviços pessoais;BRITANIA ELETRONICOS S;2/10;0;0;49.99
-22/07/2023;HOUSE CARD;9858;Associação;4033   SAMS BAURU;2/2;0;0;219.99
-22/07/2023;HOUSE CARD;9858;Arte / Artesanato / Passatempo;BRINKEKA;2/3;0;0;35.99
-03/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;GIRASSOL RESTAURANTE;Única;0;0;49.50
-03/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;7.90
-03/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;3753DROGASIL;Única;0;0;17.45
-04/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;14.93
-05/08/2023;HOUSE CARD;9858;Marketing Direto;GYMPASS GYMPASSBR;Única;0;0;119.90
-05/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;BENEDETTO GELATERIA;Única;0;0;75.00
-05/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;BENEDETTO GELATERIA;Única;0;0;14.00
-05/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD SOBERANO;Única;0;0;86.91
-06/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;ASSADOS GRILL;Única;0;0;48.00
-06/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;3753DROGASIL;1/3;0;0;42.64
-06/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD LELOS BUR;Única;0;0;26.99
-07/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR COM 2449;Única;0;0;280.98
-08/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD A DONNA L;Única;0;0;24.77
-08/08/2023;HOUSE CARD;9858;Empresa serviços;GOOGLE YOUTUBEPREMIUM;Única;0;0;34.90
-09/08/2023;HOUSE CARD;9858;TV por assinatura / Serviços de rádio;NETFLIX COM;Única;0;0;39.90
-09/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD MCHICKEN;Única;0;0;43.00
-10/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD MADE IN H;Única;0;0;39.98
-10/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;3753DROGASIL;1/3;0;0;121.31
-10/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SR SORVETE;Única;0;0;5.00
-11/08/2023;HOUSE CARD;9858;Departamento / Desconto;HUBFINTECH ZATTINI;Única;0;0;97.96
-11/08/2023;HOUSE CARD;9858;Empresa para empresa;MERCADOLIVRE TAKESTOR;Única;0;0;136.90
-11/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;MC DONALDS;Única;0;0;73.80
-12/08/2023;HOUSE CARD;9858;Arte / Artesanato / Passatempo;BRINKEKA;1/2;0;0;44.95
-12/08/2023;HOUSE CARD;9858;Associação;4033   SAMS BAURU;Única;0;0;215.61
-12/08/2023;HOUSE CARD;9858;Construção;MERCADOLIVRE INJETECH;Única;0;0;60.34
-13/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SORVETERIA GYGABON;Única;0;0;38.00
-13/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD BROOKS HA;Única;0;0;94.40
-14/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD A DONNA L;Única;0;0;22.59
-15/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD A MARMITA;Única;0;0;15.98
-15/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;LOJACONVENIENCIA UNIVE;Única;0;0;3.00
-16/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;LOJACONVENIENCIA UNIVE;Única;0;0;6.08
-16/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;TOKUHARA PASTEIS;Única;0;0;42.50
-16/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;MP  GABRIELA;Única;0;0;20.00
-17/08/2023;HOUSE CARD;9858;Marketing Direto;GYMPASS GYMPASSBR;Única;0;0;119.90
-17/08/2023;HOUSE CARD;9858;Associação;LUSO BAURU;Única;0;0;378.00
-17/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD PARMEGIAN;Única;0;0;53.18
-18/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD SOBERANO;Única;0;0;88.91
-19/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;LOJACONVENIENCIA UNIVE;Única;0;0;4.14
-19/08/2023;HOUSE CARD;9858;Associação;4033   SAMS BAURU;Única;0;0;580.87
-19/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;VILMA LOPES RESTAURANT;Única;0;0;45.00
-20/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;52.25
-20/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;COMANDANTE HAMBURGUERI;Única;0;0;87.90
-22/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SUPERMERCADO TAUSTE;Única;0;0;251.19
-22/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;FARMASUL;Única;0;0;28.30
-22/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;3753DROGASIL;Única;0;0;36.09
-23/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;3753DROGASIL;1/3;0;0;60.06
-23/08/2023;HOUSE CARD;9858;Serviços Profissionais;PAG MARISAYOSHIE;Única;0;0;31.00
-23/08/2023;HOUSE CARD;9858;Empresa para empresa;COMNACHOS;Única;0;0;25.00
-24/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;THEREZA GRILL;Única;0;0;63.00
-24/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD KADOYA PA;Única;0;0;41.99
-24/08/2023;HOUSE CARD;9858;Materiais de construção para casa;MERCADOLIVRE DDMAQUINA;1/3;0;0;39.98
-25/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;LOJACONVENIENCIA UNIVE;Única;0;0;24.00
-25/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;LOJACONVENIENCIA UNIVE;Única;0;0;8.00
-25/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;VINICIUS MOLINA PIRES;Única;0;0;8.00
-25/08/2023;HOUSE CARD;9858;Casa / Escritório Mobiliário;BRASTEMP E REDE;1/10;0;0;288.60
-26/08/2023;HOUSE CARD;9858;Serviços pessoais;BARBEARIA DAVID RAMALH;Única;0;0;38.00
-26/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;PAG CASABRASILIS;Única;0;0;57.00
-26/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;MC DONALDS;Única;0;0;29.00
-26/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD IMPERIO D;Única;0;0;24.98
-26/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;COMANDANTE HAMBURGUERI;Única;0;0;68.40
-27/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;47.94
-27/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;13.76
-27/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;FILIAL BURGER KING FS;Única;0;0;8.90
-27/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;430 GRADI BAURU;Única;0;0;108.79
-28/08/2023;HOUSE CARD;9858;Assistência médica e odontológica;PAG VIVIANEDASILVA;1/18;0;0;194.52
-28/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;149.51
-29/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD CASA DI I;Única;0;0;39.98
-29/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SORVETERIA GYGABON;Única;0;0;38.00
-30/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;THEREZA GRILL;Única;0;0;24.00
-30/08/2023;HOUSE CARD;9858;Serviços Profissionais;PAG MARISAYOSHIE;Única;0;0;31.00
-30/08/2023;HOUSE CARD;9858;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAG TOKUHARAPASTEL;Única;0;0;17.00
-31/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;IFOOD   IFD TOP ACAI;Única;0;0;32.98
-31/08/2023;HOUSE CARD;9858;Restaurante / Lanchonete / Bar;VILMA LOPES RESTAURANT;Única;0;0;40.00
+18/09/2022;RICARDO SHINODA;0910;Empresa para empresa;MP  NEWSTARZOO;Única;0;0;25.00
+18/09/2022;RICARDO SHINODA;0910;Empresa para empresa;GOOGLE YOUTUBEPREMIUM;Única;0;0;20.90
+18/09/2022;RICARDO SHINODA;0910;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;38.90
+20/09/2022;RICARDO SHINODA;0910;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SUCOS LIFE;Única;0;0;48.00
+22/09/2022;RICARDO SHINODA;0910;Relacionados a Automotivo;PAG SVAUTOMECANICA;Única;0;0;202.00
+23/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/3;0;0;63.97
+23/09/2022;RICARDO SHINODA;0910;Supermercados / Mercearia / Padarias / Lojas de Conveniência;BENEDETTO GELATERIA;Única;0;0;30.00
+23/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/3;0;0;53.32
+23/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;Única;0;0;-53.32
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;Única;0;0;-39.99
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/2;0;0;39.99
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;Única;0;0;-39.99
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/2;0;0;39.99
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;Única;0;0;-56.66
+27/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/3;0;0;56.66
+27/09/2022;RICARDO SHINODA;0910;Serviços de telecomunicações;DM  BRAINLY 27 09;Única;0;0;84.00
+28/09/2022;RICARDO SHINODA;0910;Relacionados a Automotivo;AAI     AAI IPIRANGA;Única;0;0;142.08
+28/09/2022;RICARDO SHINODA;0910;Vestuário / Roupas;HERING OUTLETESPACOH;1/3;0;0;69.99
+29/09/2022;RICARDO SHINODA;0910;Supermercados / Mercearia / Padarias / Lojas de Conveniência;CONFIANCA NACOES;Única;0;0;40.97
+02/10/2022;RICARDO SHINODA;0910;Assistência médica e odontológica;3753DROGASIL;Única;0;0;8.50
+03/10/2022;RICARDO SHINODA;0910;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SUPERMERCADO TAUSTE;Única;0;0;23.55
+02/10/2022;RICARDO SHINODA;6993;-;Estorno Tarifa;Única;0;0;-85.00
+02/10/2022;RICARDO SHINODA;6993;-;Anuidade Diferenciada;1/12;0;0;85.00
+02/10/2022;RICARDO SHINODA;6993;-;Anuidade Diferenciada;1/12;0;0;85.00
+02/10/2022;RICARDO SHINODA;6993;-;Estorno Tarifa;Única;0;0;-85.00
+20/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;BURGER 21;Única;0;0;117.90
+21/09/2022;ANA MAROUBO;0527;Especialidade varejo;JALOVI LIVRARIA;Única;0;0;59.99
+21/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SUPERMERCADO TAUSTE;Única;0;0;273.36
+23/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;48.47
+24/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PADARIA COPACABANA;Única;0;0;30.84
+24/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;36.80
+24/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;MC DONALDS;Única;0;0;54.20
+25/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;SUPERMERCADO TAUSTE;Única;0;0;185.78
+25/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAG ESPETINHODOREI;Única;0;0;160.60
+25/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;38.50
+25/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;66.00
+26/09/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;COISA BOA DO CHEFE MOA;Única;0;0;41.69
+27/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;VILLE BAR;Única;0;0;71.15
+27/09/2022;ANA MAROUBO;0527;Assistência médica e odontológica;3753DROGASIL;Única;0;0;109.16
+27/09/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;54.00
+01/10/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;89.00
+02/10/2022;ANA MAROUBO;0527;Supermercados / Mercearia / Padarias / Lojas de Conveniência;PAO DE ACUCAR 2450;Única;0;0;60.77
+02/10/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;55.30
+02/10/2022;ANA MAROUBO;0527;Restaurante / Lanchonete / Bar;IFOOD        IFOOD;Única;0;0;35.50
