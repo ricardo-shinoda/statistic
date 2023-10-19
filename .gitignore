@@ -2,4 +2,5 @@
 *.xlsx
 *.csv
 *.json
+*..json
 /docs/
