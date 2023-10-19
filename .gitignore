@@ -1,4 +1,5 @@
 *.venv
 *.xlsx
 *.csv.
+*.json
 /docs/
