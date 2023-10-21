@@ -42,8 +42,9 @@ for page_num in range(len(pdf_reader.pages)):
                 current_transaction["Transaction"] += "\n" + line.strip()
 
     if current_transaction:
-        if "SALDO" not in current_transaction["Transaction"]:
+        if "SALDO" not in current_transaction["Transaction"] and "TOTAL" not in current_transaction["Transaction"]:
             movements.append(current_transaction)
+
 
 pdf_file.close()
 
