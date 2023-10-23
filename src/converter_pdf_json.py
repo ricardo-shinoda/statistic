@@ -71,4 +71,3 @@ with open('output_account.json', 'w') as json_file:
     json_file.write(json_data)
 
 print(json_data)
-
