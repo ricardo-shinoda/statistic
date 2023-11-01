@@ -9,6 +9,7 @@ To run this project first install all the dependencies by running, from the root
 
 To update Account_mvt (all the movemnts from the account)
 
+- First activate .venv 
 - Download the file from the app (do it monthly)
 - Rename to: account_mvt.pdf
 - Move to /home/ricardo/code/statistic
