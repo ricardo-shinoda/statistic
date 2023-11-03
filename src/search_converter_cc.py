@@ -7,28 +7,27 @@ import json
 
 source_directory = "/home/ricardo/Downloads/invoice"
 
-month = "2023-99"
+# Rename it as needed
+month = "2023-00"
 
-target_file = "*.csv"
+target_extension = ".csv"
 
 destination_directory = "/home/ricardo/code/statistic/src"
 
 for root, dirs, files in os.walk(source_directory):
-    if target_file in files:
-        source_file_path = os.path.join(root, target_file)
-        destination_file_path = os.path.join(destination_directory, target_file)
-        shutil.move(source_file_path, destination_file_path)
+    for file in files:
+        if file.endswith(target_extension):
+            source_file_path = os.path.join(root, file)
+            destination_file_path = os.path.join(destination_directory, file)
+            shutil.move(source_file_path, destination_file_path)
+            break
 
-        break
-
-df = pd.read_csv('invoice.csv', delimiter=';')
+df = pd.read_csv(destination_file_path, delimiter=';')
 
 data = df.to_dict(orient='records')
 
 with open(f'/home/ricardo/code/statistic/src/credit_card/json/{month}.json', 'w', encoding='utf-8') as json_file:
     json.dump(data, json_file, indent=4, ensure_ascii=False)
-
-df = pd.read_csv('invoice.csv', delimiter=';')
 
 # Format the numbers in the DataFrame to use Brazilian standards
 df['Valor (em R$)'] = df['Valor (em R$)'].apply(lambda x: f'{x:,.2f}'.replace('.', 'X').replace(',', '.').replace('X', ','))
