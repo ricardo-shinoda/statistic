@@ -1,3 +1,5 @@
+# This script convert .csv file from repo to .json
+
 import pandas as pd
 import json
 
@@ -12,4 +14,3 @@ with open(f'/home/ricardo/code/statistic/src/credit_card/json/{month}.json', 'w'
     json.dump(data, json_file, indent=4, ensure_ascii=False)
 
 print("Conversion complete. Data saved on 'output.json'.")
-
