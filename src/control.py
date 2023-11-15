@@ -1,5 +1,3 @@
-# This script search for a file .csv on downloads/invoice folder and brin to the repo renaming to invoice.csv
-
 from googleapiclient.http import MediaFileUpload
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -21,10 +19,10 @@ destination_directory = "/home/ricardo/code/statistic/src"
 destination_file_path = None  # Initialize the variable outside the loop
 
 for root, dirs, files in os.walk(source_directory):
-    for file in files:
-        if file.endswith(target_extension):
-            source_file_path = os.path.join(root, file)
-            destination_file_name = f'{file}{target_extension}'
+    for current_file in files:  # Use a different variable name for the loop
+        if current_file.endswith(target_extension):
+            source_file_path = os.path.join(root, current_file)
+            destination_file_name = 'invoice.csv'
             destination_file_path = os.path.join(
                 destination_directory, destination_file_name)
             shutil.move(source_file_path, destination_file_path)
@@ -40,10 +38,14 @@ if destination_file_path:
 
 
 # rename this variable to save the file according to the invoice month
-month = "2023-01"
+month = "2023-10"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
+
+# Print column names and first few rows for debugging
+print("Column Names:", df.columns)
+print("First Few Rows:\n", df.head())
 
 # Exclude rows with "Inclusao de Pagamento" in the "Descrição" column
 df = df[df['Descrição'] != 'Inclusao de Pagamento    ']
@@ -65,8 +67,20 @@ df['Categoria'] = df['Mapped_Categoria'].combine_first(df['Categoria'])
 # Drop the temporary "Mapped_Categoria" column
 df = df.drop(columns=['Mapped_Categoria'])
 
+# Remove leading and trailing whitespaces from column names
+df.columns = df.columns.str.strip()
+
+# Print column names and first few rows for debugging
+print("Column Names after processing:\n", df.columns)
+print("First Few Rows after processing:\n", df.head())
+
 # Group by "Categoria" and calculate the sum of "Valor (em R$)"
-category_sum = df.groupby('Categoria')['Valor (em R$)'].sum().reset_index()
+try:
+    category_sum = df.groupby('Categoria')['Valor (em R$)'].sum().reset_index()
+except KeyError as e:
+    print(f"KeyError: {
+          e}. Check if the column 'Valor (em R$)' is present in the DataFrame.")
+    # Add additional debugging information if needed
 
 # Save both DataFrames to a single sheet in a new Excel file, with the summary table on the right of the original data
 with pd.ExcelWriter(f'/home/ricardo/code/statistic/src/credit_card/xlsx/{month}.xlsx', engine='openpyxl') as writer:

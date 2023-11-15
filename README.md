@@ -20,7 +20,11 @@ To update Account_mvt (all the movemnts from the account)
 To update Credit Card invoices:
 
 - From the C6 App, download the invoice .csv file
-- Move it from the Download folder to /ricardo/Download/invoice
+- Move it from the Download folder to /ricardo/Desktop - keep this safe version
+- Move one copy of the file to /home/ricardo/Downloads/invoice
+- Download the latest version of Controle.xsls from G-drive
+- run `mv /home/ricardo/Downloads/Controle.xlsx /home/ricardo/code/statistic/src`
+- Don´t forget to update variable "month" on control.py -"yyyy-mm" like
 - run `python3 control.py`
 
 

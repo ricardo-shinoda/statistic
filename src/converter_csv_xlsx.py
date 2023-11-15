@@ -4,10 +4,10 @@ import pandas as pd
 import json
 
 # rename this variable to save the file according to the invoice month
-month = "2023-13"
+month = "2023-99"
 
 # Read the CSV file with the specified delimiter
-df = pd.read_csv('invoice.csv', delimiter=';')
+df = pd.read_csv('invoice.csv', delimiter=',')
 
 # Exclude rows with "Inclusao de Pagamento" in the "Descrição" column
 df = df[df['Descrição'] != 'Inclusao de Pagamento    ']
