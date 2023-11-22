@@ -26,6 +26,7 @@ To update Credit Card invoices:
 - Download the latest version of Controle.xsls from G-drive
 - run `mv /home/ricardo/Downloads/Controle_<year-month>.xlsx /home/ricardo/code/statistic/src`
 - Don´t forget to update variable "month" on control.py -"yyyy-mm" like
+- First run `python3 extract.py`
 - run `python3 control.py`
 
 
