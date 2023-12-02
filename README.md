@@ -24,10 +24,11 @@ To update Credit Card invoices:
 - Save as > rename if needed > Desktop
 - Move one copy of the file to /home/ricardo/Downloads/invoice
 - Download the latest version of Controle.xsls from G-drive
+- Rename Controle file to just Controle.xsls
 - run `mv /home/ricardo/Downloads/Controle_<year-month>.xlsx /home/ricardo/code/statistic/src`
 - Don´t forget to update variable "month" on control.py -"yyyy-mm" like
-- First run `python3 extract.py`
-- run `python3 control.py`
+- First run `python3 extract.py` - If there are zip file
+- Then run `python3 control.py`
 
 
 Files Breakdown:
