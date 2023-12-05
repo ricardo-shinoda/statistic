@@ -3,13 +3,15 @@ import shutil
 import subprocess
 import os
 import glob
+from decouple import config
 
 # Path to the downloaded zip file
 # Replace with the actual file path
 zip_file_path = "/home/ricardo/Downloads/Fatura-CPF.zip"
 
 # Password for the zip file
-zip_password = "218843"
+# zip_password = "218843" SEE if below will work
+zip_password = config('ZIP_PASSWORD')
 
 # Extract the contents of the zip file
 # Replace with the desired extraction folder
