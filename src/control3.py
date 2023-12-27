@@ -35,7 +35,7 @@ if destination_file_path:
 
 
 # rename this variable to save the file according to the invoice month
-month = "2023-11"
+month = "2023-99"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -172,6 +172,7 @@ def upload_file(file_path):
 
     file_metadata = {
         'name': f'Controle_{month}.xlsx',
+        # 'name': f'Controle.xlsx',
         'parents': [PARENT_FOLDER_ID]
     }
 
