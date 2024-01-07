@@ -1,4 +1,3 @@
-# Without description.json
 from googleapiclient.http import MediaFileUpload
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -36,7 +35,7 @@ if destination_file_path:
 
 
 # rename this variable to save the file according to the invoice month
-month = "2023-100"
+month = "2023-07"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -47,6 +46,23 @@ print("First Few Rows:\n", df.head())
 
 # Exclude rows with "Inclusao de Pagamento" in the "Descrição" column
 df = df[df['Descrição'] != 'Inclusao de Pagamento    ']
+
+# Load the description mapping from the JSON file
+with open('/home/ricardo/code/statistic/src/description.json') as f:
+    description_list = json.load(f)
+
+# Convert the list of dictionaries to a dictionary
+description_mapping = {item['original']: item['new']
+                       for item in description_list}
+
+# Create a new column "Mapped_Categoria" based on the mapping
+df['Mapped_Categoria'] = df['Descrição'].map(description_mapping)
+
+# Use the original "Categoria" if there is no mapping, otherwise use the mapped value
+df['Categoria'] = df['Mapped_Categoria'].combine_first(df['Categoria'])
+
+# Drop the temporary "Mapped_Categoria" column
+df = df.drop(columns=['Mapped_Categoria'])
 
 # Remove leading and trailing whitespaces from column names
 df.columns = df.columns.str.strip()
