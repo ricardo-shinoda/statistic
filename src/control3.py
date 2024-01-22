@@ -36,7 +36,7 @@ if destination_file_path:
 
 
 # rename this variable to save the file according to the invoice month
-month = "2023-100"
+month = "2023-107"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -47,6 +47,7 @@ print("First Few Rows:\n", df.head())
 
 # Exclude rows with "Inclusao de Pagamento" in the "Descrição" column
 df = df[df['Descrição'] != 'Inclusao de Pagamento    ']
+
 
 # Remove leading and trailing whitespaces from column names
 df.columns = df.columns.str.strip()
@@ -133,6 +134,7 @@ else:
 # Copia os dados da aba de origem para a aba de destino
 for row in source_sheet.iter_rows(values_only=True):
     target_sheet.append(row)
+
 
 # Salva a planilha de destino
 target_workbook.save(target_file_path)

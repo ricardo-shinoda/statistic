@@ -35,7 +35,7 @@ if destination_file_path:
 
 
 # rename this variable to save the file according to the invoice month
-month = "2023-07"
+month = "2023-103"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -50,6 +50,17 @@ df = df[df['Descrição'] != 'Inclusao de Pagamento    ']
 # Load the description mapping from the JSON file
 with open('/home/ricardo/code/statistic/src/description.json') as f:
     description_list = json.load(f)
+
+# Assuming 'Final do Cartão' is a column in your DataFrame 'df'
+if 'Final do Cartão' in df.columns and 'Descrição' in df.columns:
+    condition = (df['Final do Cartão'] == '7757') & (
+        df['Descrição'] == 'OPHICINA FOOTWEAR ESPL')
+
+    # Iterate over rows and update values directly in the DataFrame
+    for index, row in df[condition].iterrows():
+        for item in df.columns:
+            if item['Final do Cartão'] == '7757' and item['Descrição'] == 'OPHICINA FOOTWEAR ESPL':
+                df.loc[index, 'Categoria'] = 'Ricardo - Tenis'
 
 # Convert the list of dictionaries to a dictionary
 description_mapping = {item['original']: item['new']
@@ -186,21 +197,3 @@ def upload_file(file_path):
 
 # Upload the target file to Google Drive
 upload_file(target_file_path)
-
-
-
-
-#? Start from this
-
-# Load the description mapping from the JSON file
-with open('/home/ricardo/code/statistic/src/description.json') as f:
-    description_list = json.load(f)
-
-# Add condition to check the values and replace if they match
-for item in description_list:
-    if item['Final do Cartão'] == '7757' and item['Descrição'] == 'OPHICINA FOOTWEAR ESPL':
-        item['new'] = 'Ricardo - Tenis'
-
-# Convert the list of dictionaries to a dictionary
-description_mapping = {item['original']: item['new']
-                       for item in description_list}
