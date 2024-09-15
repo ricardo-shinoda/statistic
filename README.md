@@ -3,13 +3,13 @@ This is a financial control repository
 Note:
 credit_card files goes from february 2023 to April 2023, that's because it was asked to change the due date on the invoice, then the bank jumped on invoice, in this case March 2023. But it's all combined on April 2023 invoice.
 
-To run this project first install all the dependencies by running, from the root:
+#### To run this project first install all the dependencies by running, from the root:
 
 `pip install -r requirements.txt`
 
-To update Account_mvt (all the movemnts from the account)
+#### To update Account_mvt (all the movemnts from the account)
 
-- First activate .venv 
+- First activate .venv (source .venv/bin/activate)
 - Download the file from the app (do it monthly)
 - Rename to: account_mvt.pdf
 - Move to /home/ricardo/code/statistic
@@ -17,21 +17,25 @@ To update Account_mvt (all the movemnts from the account)
 - rename the output to: yyyy-mm.json
 - Move file renamed to src/account_mvt/json
 
-To update Credit Card invoices:
+#### To update Credit Card invoices:
 
-- From the C6 App, download the invoice .csv file
-- Open the downloaded file with TEXT EDITOR Linux app.
-- Save as > rename if needed > Desktop
-- Move one copy of the file to /home/ricardo/Downloads/invoice
+- From the C6 App, download the invoice .csv file to my /home/Download (From email)
 - Download the latest version of Controle.xsls from G-drive
 - Rename Controle file to just Controle.xsls
-- run `mv /home/ricardo/Downloads/Controle_<year-month>.xlsx /home/ricardo/code/statistic/src`
-- Don´t forget to update variable "month" on control.py -"yyyy-mm" like
-- First run `python3 extract.py` - If there are zip file
-- Then run `python3 control.py`
+    `mv /home/ricardo/Downloads/Controle*.xlsx /home/ricardo/Downloads/Controle.xlsx`
+- Then move to the project
+    `mv /home/ricardo/Downloads/Controle.xlsx /home/ricardo/code/statistic/src`
+- Don´t forget to update variable "month" on control.py -"yyyy-mm" line 
+    `python3 control4.py`
+
+```shell
+mv /home/ricardo/Downloads/Controle*.xlsx /home/ricardo/Downloads/Controle.xlsx
+mv /home/ricardo/Downloads/Controle.xlsx /home/ricardo/code/statistic/src
+python3 control4.py
+```
 
 
-Files Breakdown:
+## Files Breakdown:
 
 Conversion Files (convert various files into .json or .xlsx)
 
