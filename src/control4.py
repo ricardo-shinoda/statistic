@@ -2,10 +2,38 @@ from googleapiclient.http import MediaFileUpload
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 import openpyxl
-import os
-import shutil
 import pandas as pd
 import json
+import zipfile
+import shutil
+import os
+import glob
+from decouple import config
+
+# Path to the downloaded zip file
+# Replace with the actual file path
+zip_file_path = "/home/ricardo/Downloads/Fatura-CPF.zip"
+
+# Password for the zip file
+# zip_password = "218843" SEE if below will work
+zip_password = config('ZIP_PASSWORD')
+
+# Extract the contents of the zip file
+# Replace with the desired extraction folder
+extracted_folder = "/home/ricardo/Downloads/invoice"
+with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+    zip_ref.extractall(extracted_folder, pwd=bytes(zip_password, 'utf-8'))
+
+# Find the path of the CSV file inside the extracted folder
+csv_files = glob.glob(os.path.join(extracted_folder, '*.csv'))
+
+if csv_files:
+    # Use the first CSV file found (you may want to implement specific logic if there are multiple CSV files)
+    extracted_text_file = csv_files[0]
+
+    # Path to the Text Editor app in Pop OS
+    # Replace with the actual path to the Text Editor app
+    text_editor_path = "/usr/bin/gedit"
 
 source_directory = "/home/ricardo/Downloads/invoice"
 
@@ -34,8 +62,8 @@ if destination_file_path:
     data = df.to_dict(orient='records')
 
 
-# rename this variable to save the file according to the invoice month
-month = "2023-01"
+#! rename this variable to save the file according to the invoice month
+month = "2024-07-08"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -75,8 +103,8 @@ print("First Few Rows after processing:\n", df.head())
 try:
     category_sum = df.groupby('Categoria')['Valor (em R$)'].sum().reset_index()
 except KeyError as e:
-    print(f"KeyError: {
-          e}. Check if the column 'Valor (em R$)' is present in the DataFrame.")
+    print(
+        f"KeyError: {e}. Check if the column 'Valor (em R$)' is present in the DataFrame.")
     # Add additional debugging information if needed
 
 # Group by "Nome no Cartão" and calculate the sum of "Valor (em R$)"
@@ -86,8 +114,8 @@ try:
     # Calculate the total amount of expenses
     total_expenses = user_sum['Valor (em R$)'].sum()
 except KeyError as e:
-    print(f"KeyError: {
-          e}. Check if the column 'Valor (em R$)' is present in the DataFrame.")
+    print(
+        f"KeyError: {e}. Check if the column 'Valor (em R$)' is present in the DataFrame.")
 
 # Save both DataFrames to a single sheet in a new Excel file, with the summary table on the right of the original data
 with pd.ExcelWriter(f'/home/ricardo/code/statistic/src/credit_card/xlsx/{month}.xlsx', engine='openpyxl') as writer:
@@ -122,8 +150,7 @@ print(f'Conversion complete, Data and Summary saved in {month}.xlsx.')
 file_name = month
 
 # Especificação dos arquivos de origem e destino
-source_file_path = f'/home/ricardo/code/statistic/src/credit_card/xlsx/{
-    file_name}.xlsx'
+source_file_path = f'/home/ricardo/code/statistic/src/credit_card/xlsx/{file_name}.xlsx'
 target_file_path = '/home/ricardo/code/statistic/src/Controle.xlsx'
 
 # Nome da aba de origem e nome da nova aba de destino
