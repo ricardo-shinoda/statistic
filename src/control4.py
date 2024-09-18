@@ -150,7 +150,7 @@ print(f'Conversion complete, Data and Summary saved in {month}.xlsx.')
 file_name = month
 
 # Especificação dos arquivos de origem e destino
-source_file_path = f'/home/ricardo/code/statistic/src/credit_card/xlsx/{fgit aile_name}.xlsx'
+source_file_path = f'/home/ricardo/code/statistic/src/credit_card/xlsx/{file_name}.xlsx'
 target_file_path = '/home/ricardo/code/statistic/src/Controle.xlsx'
 
 # Nome da aba de origem e nome da nova aba de destino
