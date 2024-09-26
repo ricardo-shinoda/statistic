@@ -43,6 +43,10 @@ def run():
 
     # Loop through the list of expenses and insert each into the database
     for expense_data in data:
+
+        if expense_data["Descrição"] == "Inclusao de Pagamento    ":
+            continue
+
         expense = CreditCardExpense(
             purchase_date=expense_data["Data de Compra"],
             card_name=expense_data["Nome no Cartão"],
