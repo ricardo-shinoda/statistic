@@ -1,13 +1,11 @@
-This is a financial control repository
+# This is a financial control repository
 
-Note:
-credit_card files goes from february 2023 to April 2023, that's because it was asked to change the due date on the invoice, then the bank jumped on invoice, in this case March 2023. But it's all combined on April 2023 invoice.
 
 #### To run this project first install all the dependencies by running, from the root:
 
 `pip install -r requirements.txt`
 
-#### To update Account_mvt (all the movemnts from the account)
+#### To update Account_mvt (all the movements from the account)
 
 - First activate .venv (source .venv/bin/activate)
 - Download the file from the app (do it monthly)
@@ -17,7 +15,7 @@ credit_card files goes from february 2023 to April 2023, that's because it was a
 - rename the output to: yyyy-mm.json
 - Move file renamed to src/account_mvt/json
 
-#### To update Credit Card invoices:
+### [control4.py] To update Credit Card invoices:
 
 - From the C6 App, download the invoice .csv file to my /home/Download (From email)
 - Download the latest version of Controle.xsls from G-drive
@@ -32,6 +30,36 @@ credit_card files goes from february 2023 to April 2023, that's because it was a
 mv /home/ricardo/Downloads/Controle*.xlsx /home/ricardo/Downloads/Controle.xlsx
 mv /home/ricardo/Downloads/Controle.xlsx /home/ricardo/code/statistic/src
 python3 control4.py
+```
+
+### [control3.py] To do the same steps as control4 but without converting .zip file
+Good to use if I manually convert the file, also good to test correct file that are already on the DESKTOP
+
+```shell
+mv /home/ricardo/Downloads/Controle*.xlsx /home/ricardo/Downloads/Controle.xlsx
+mv /home/ricardo/Downloads/Controle.xlsx /home/ricardo/code/statistic/src
+python3 control3.py
+```
+
+### [control2.py] To convert .csv to .json and .xlsx
+
+get the .csv from bank, open with text editor, save as on /Downloads/invoice/invoice.csv
+```shell
+python3 control2.py.
+```
+
+
+ - For the next updates, don't forget to remove:
+    - the file FATURA-CSV.csv on /Download
+    - Controle.xlsx on /src 
+
+
+#### To update sql postgres 
+
+- After the step above is done, update line variable month (combined or just the single)
+- Run:
+```shell
+python3 sql_query.py
 ```
 
 
