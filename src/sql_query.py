@@ -28,8 +28,8 @@ class CreditCardExpense(Base):
 month = [202209, 202210, 202211, 202212, 202301, 20230203, 202304, 202305, 202306, 202307, 202308,
          202309, 202310, 202311, 202312, 202401, 202402, 202403, 202404, 202405, 202406, 20240708]
 
-#! Update this if is a singular month
-# month = [202408]
+#! Update this if is a single month
+# month = [20240708]
 
 # Create session
 Session = sessionmaker(bind=engine)
