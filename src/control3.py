@@ -86,7 +86,7 @@ target_workbook.save(target_file_path)
 # Google Drive upload
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'service.account.json'
-PARENT_FOLDER_ID = "1qyMZb6P7H5oaq2zxoaqs17VJWSnHNgnG"
+PARENT_FOLDER_ID = ('PARENT_FOLDER_ID_DB')
 
 
 def authenticate():

@@ -82,12 +82,6 @@ def run():
 
     # Query and print all expenses
     expenses = session.query(CreditCardExpense).all()
-    # for expense in expenses:
-    #     print(
-    #         f'Expense: {expense.description}, Value (BRL): {expense.value_brl}, Purchase Date: {expense.purchase_date}')
-
-    # # Close the session
-    # session.close()
 
 
 run()
