@@ -59,7 +59,7 @@ if destination_file_path:
 
 
 #! rename this variable to save the file according to the invoice month
-month = "202409"
+month = "2024-11"
 
 # Read the CSV file with the specified delimiter
 df = pd.read_csv('invoice.csv', delimiter=';')
@@ -180,7 +180,7 @@ target_workbook.save(target_file_path)
 
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'service.account.json'
-PARENT_FOLDER_ID = ('PARENT_FOLDER_ID_DB')
+PARENT_FOLDER_ID = config('PARENT_FOLDER_ID_DB')
 
 
 def authenticate():
